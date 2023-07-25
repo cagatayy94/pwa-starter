@@ -37,7 +37,6 @@ jobs:
         env:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
-          port: 22
         with:
           key: ${{ secrets.SSH_KEY }}
           source: "./dist/"
